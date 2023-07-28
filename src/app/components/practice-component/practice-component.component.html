@@ -1,0 +1,15 @@
+<div class="container-fluid">
+  <div class="row"> 
+    <div class="col-2">
+        <dl>
+            <dt>Celcius</dt>
+            <dd><input type="text" (keyup)="changeToFahrenheit($event)" [value]="C">{{C}}</dd>
+            <dt>Fahrenheit</dt>
+            <dd><input type="text" (keyup)="changeToCelsius($event)" [value]="F">{{F}}</dd>
+          </dl>
+    </div>
+    <div class="col-3">
+        
+    </div>
+    </div>
+</div>
